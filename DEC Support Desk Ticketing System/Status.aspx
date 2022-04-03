@@ -3,12 +3,38 @@
 
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    
-    
-    <!--Button to add a new Status -->
+     
+  <form>
+  <div class="form-group">
+    <!--Primary Status Dropdown -->
+    <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Primary Status
+        </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" href="#">more</a>
+                <a class="dropdown-item" href="#">to</a>
+                <a class="dropdown-item" href="#">be</a>
+                <a class="dropdown-item" href="#">here</a>
+                <a class="dropdown-item" href="#">eventually</a>
+            </div>
+    </div>
+  </div>
+    <!--Secondary Status Textbox -->
+  <div class="form-group">
+    <label for="exampleInputPassword1">Secondary Status</label>
+    <input type="password" class="form-control" id="secondaryStatus" placeholder="...">
+  </div>      
+     
+      <!--Button to add a new Status -->
     <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal">
         Add Status
     </button>
+  
+</form>
+    
+
+
 
     <!--data table displaying status info -->
     <table id="example" class="table table-striped table-bordered" style="width:100%">
@@ -134,4 +160,6 @@
             </tr>
         </tfoot>
     </table>
+
+    
 </asp:Content>
