@@ -84,6 +84,7 @@
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\jquery.dataTables.min.js" />
     <Content Include="js\popper.min.js" />
+    <Content Include="Status.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -108,6 +109,13 @@
     </Compile>
     <Compile Include="SDTSMaster.Master.designer.cs">
       <DependentUpon>SDTSMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Status.aspx.cs">
+      <DependentUpon>Status.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Status.aspx.designer.cs">
+      <DependentUpon>Status.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
