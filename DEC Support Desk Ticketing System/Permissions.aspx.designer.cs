@@ -11,7 +11,7 @@ namespace DEC_Support_Desk_Ticketing_System
 {
 
 
-    public partial class WebForm1
+    public partial class Permissions
     {
     }
 }
