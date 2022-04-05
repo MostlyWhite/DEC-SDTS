@@ -84,6 +84,7 @@
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\jquery.dataTables.min.js" />
     <Content Include="js\popper.min.js" />
+    <Content Include="Permissions.aspx" />
     <Content Include="Status.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -101,6 +102,13 @@
     </Compile>
     <Compile Include="HomeScreen.aspx.designer.cs">
       <DependentUpon>HomeScreen.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Permissions.aspx.cs">
+      <DependentUpon>Permissions.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Permissions.aspx.designer.cs">
+      <DependentUpon>Permissions.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SDTSMaster.Master.cs">
