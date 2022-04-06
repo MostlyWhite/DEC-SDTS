@@ -7,6 +7,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <link href="css/bootstrap.min.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.css">
     <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.js"></script>
@@ -23,15 +24,37 @@
                     <div>
                         <img src="css/Images/TempleT.png" width="100" height="100"/>
                     </div>
-                    <a class="navbar-brand" href="#">Navbar</a>
+                    <a class="navbar-brand" href="#">Digital Equity Center</a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
-                        <div class="collapse navbar-collapse show" id="navbarNavAltMarkup">
+                       <!-- <div class="collapse navbar-collapse show" id="navbarNavAltMarkup">
                             <div class="navbar-nav">
-                                <a class="nav-link active" aria-current="page" href="HomeScreen.aspx">Home Screen</a>
-                                <a class="nav-link" href="#">Features</a>
-                                <a class="nav-link" href="#">Pricing</a>
+                                <a class="nav-link active" aria-current="page" href="HomeScreen.aspx">Tickets</a>
+                                <a class="nav-link" href="#">Email</a>
+                                <a class="nav-link" href="#">Create Ticket</a>
+                                <div class="dropdown">
+                                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Administrative
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                        <a class="dropdown-item" href="Status.aspx">Status(Add/Delete)</a>
+                                        <a class="dropdown-item" href="Permissions.aspx">Permissions</a>
+                                        <a class="dropdown-item" href="AddUser.aspx">Add User</a>
+                                  </div>
+                                </div>
+                            </div>
+                           
+                        </div> -->
+                  </div>
+            </nav>
+            <div style = "height:50px; width:100%; background-color:#981E32;">
+                <nav class="navbar navbar-expand-lg">
+                   <div class="collapse navbar-collapse show" id="navbarNavAltMarkup">
+                            <div class="navbar-nav">
+                                <a class="nav-link active" aria-current="page" href="HomeScreen.aspx">Tickets</a>
+                                <a class="nav-link" href="#">Email</a>
+                                <a class="nav-link" href="#">Create Ticket</a>
                                 <div class="dropdown">
                                     <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                         Administrative
@@ -44,18 +67,16 @@
                                 </div>
                             </div>
                         </div>
-                  </div>
-            </nav>
-            <div style = "height:50px; width:100%; background-color:#981E32;">
-                
-            </div>
+                        </nav>
+                    </div>
                 
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">    
             </asp:ContentPlaceHolder>
         </div>
     </form>
-    <script src="js/jquery-3.3.1.min.js"></script>
+  <!-- <script src="js/jquery-3.3.1.min.js"></script>-->
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+
 </body> 
 </html>
