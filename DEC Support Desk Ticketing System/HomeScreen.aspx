@@ -8,7 +8,11 @@
         });
     </script>
     
-    
+    <div style="height:50px; width:100%; margin-top:10px;">
+        <div style="height:25px; width:60%; background-color:#981E32; border-radius: 25px; margin-left: 20%; text-align:center; color:white;">
+            Tickets - Open Tickets
+        </div>
+    </div>
     <table id="example" class="table table-striped table-bordered" style="width:100%">
         <thead>
             <tr>
