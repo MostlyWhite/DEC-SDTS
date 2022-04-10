@@ -10,6 +10,7 @@
                         <th>TUID</th>
                         <th>First Name</th>
                         <th>Last Name</th>
+                        <th>Screen Name</th>
                         <th>E-Mail</th>
                         <th>Status</th>
                         <th>Role</th>
@@ -20,6 +21,7 @@
                         <td>915123456</td>
                         <td>Sean</td>
                         <td>Mitchell</td>
+                        <td>Sean M.</td>
                         <td>tux12345@temple.edu</td>
                         <td>
                             <div class="dropdown">
@@ -38,6 +40,7 @@
                         <td>915636014</td>
                         <td>Raehaan</td>
                         <td>Awan</td>
+                        <td>Raehaan A.</td>
                         <td>tuj43590@temple.edu</td>
                         <td>
                             <div class="dropdown">
@@ -56,6 +59,7 @@
                         <td>915987654</td>
                         <td>Aamir</td>
                         <td>Contractor</td>
+                        <td>Aamir C.</td>
                         <td>tuj02678@temple.edu</td>
                         <td>
                             <div class="dropdown">
@@ -73,7 +77,7 @@
                     <tr>
                         <td colspan="6">
                             <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal">
-                                Add A User
+                                Add User
                             </button>
                         </td>
                     </tr>
@@ -84,17 +88,74 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">Adding User</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
-                <div class="modal-body">
-                    ... <!-- Insert stuff here Kyle --> 
+
+                <div class="modal-body row g-3">
+<!-- Insert stuff here Kyle --> 
+                    <div class="col-md-10">
+                        <label for="validationTUID" class="form-label">TUID:</label>
+                        <div class="input-group has-validation">
+                            
+                            <input type="text" class="form-control" id="validationTUID" aria-describedby="inputGroupPrepend" required="">
+                            <button type="button" class="btn btn-danger">Search</button>
+                            <div class="invalid-feedback">
+                                Please choose a username.
+                            </div>
+                        </div>
+                    </div>
+                <div class="col-md-5">
+                    <label for="validationCustom01" class="form-label">First Name:</label>
+                    <input type="text" class="form-control" id="validationCustom01" value="Mark" required="">
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+                <div class="col-md-5">
+                    <label for="validationCustom02" class="form-label">Last Name:</label>
+                    <input type="text" class="form-control" id="validationCustom02" value="Otto" required="">
+                    <div class="valid-feedback">
+                        Looks good!
+                    </div>
+                </div>
+                
+                <div class="col-md-10">
+                    <label for="validationCustom03" class="form-label">E-mail:</label>
+                    <input type="text" class="form-control" id="validationCustom03" required="">
+                    <div class="invalid-feedback">
+                        Please provide a valid city.
+                    </div>
+               </div>
+               <div class="col-md-3">
+                    <label for="validationCustom04" class="form-label">Satus:</label>
+                    <select class="form-select" id="validationCustom04" required="">
+                        <option selected="" disabled="" value="">Active</option>
+                        <option>Active</option>
+                        <option>Inactive</option>
+                    </select>
+                    <div class="invalid-feedback">
+                        Please select a valid state.
+                    </div>
+              </div>
+              <div class="col-md-3">
+                    <label for="validationRoles" class="form-label">Role:</label>
+                    <select class="form-select" id="validationRoles" required="">
+                        <option selected="" disabled="" value="">Choose...</option>
+                        <option>Super User</option>
+                        <option>Regular User</option>
+                    </select>
+                    <div class="invalid-feedback">
+                        Please select a valid state.
+                    </div>
+              </div>
+
+             <div class="col-12">
+                 <br />
+                    <button class="btn btn-danger" type="submit">Add User</button>
+             </div>
                 </div>
             </div>
         </div>
