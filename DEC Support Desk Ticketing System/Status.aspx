@@ -3,36 +3,35 @@
 
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-     
+  
   <form>
-  <div class="form-group">
+  <div class="form-group" style ="float:left; margin: 10px">
     <!--Primary Status Dropdown -->
     <div class="dropdown">
         <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Primary Status
         </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="#">more</a>
-                <a class="dropdown-item" href="#">to</a>
-                <a class="dropdown-item" href="#">be</a>
-                <a class="dropdown-item" href="#">here</a>
-                <a class="dropdown-item" href="#">eventually</a>
+                <a class="dropdown-item" href="#">Assigned</a>
+                <a class="dropdown-item" href="#">In-Progress</a>
+                <a class="dropdown-item" href="#">Pending</a>
+                <a class="dropdown-item" href="#">Resolved</a>
+                <a class="dropdown-item" href="#">Closed</a>    
             </div>
     </div>
   </div>
     <!--Secondary Status Textbox -->
-  <div class="form-group">
+  <div class="form-group" style ="float:left; margin: 10px">
     <label for="exampleInputPassword1">Secondary Status</label>
-    <input type="password" class="form-control" id="secondaryStatus" placeholder="...">
+    <input type="text" class="form-control" id="secondaryStatus" placeholder="...">
   </div>      
      
       <!--Button to add a new Status -->
-    <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal">
+    <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#exampleModal" style ="float:left; margin: 10px">
         Add Status
     </button>
   
 </form>
-    
 
 
 
