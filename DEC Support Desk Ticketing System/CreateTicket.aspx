@@ -2,7 +2,12 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    
+     <div style="height:50px; width:100%; margin-top:20px;">
+        <div style="height:25px; width:60%; background-color:#981E32; border-radius: 25px; margin-left: 20%; text-align:center; color:white;">
+            Digital Equity Center - Create Ticket
+        </div>
+    </div>
+
     <asp:Panel ID="pnlCreateTicket" class="mx-auto" margin="auto" width="90%" runat="server" BackColor="#999999" BorderStyle="Solid">
         <asp:Label ID="lblEmail" class="col-md-10"  runat="server" Text="Email">
             <asp:TextBox id="txtEmail" Width="42%" runat="server"> </asp:TextBox>
