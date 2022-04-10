@@ -10,6 +10,7 @@
                         <th>TUID</th>
                         <th>First Name</th>
                         <th>Last Name</th>
+                        <th>Screen Name</th>
                         <th>E-Mail</th>
                         <th>Status</th>
                         <th>Role</th>
@@ -20,6 +21,7 @@
                         <td>915123456</td>
                         <td>Sean</td>
                         <td>Mitchell</td>
+                        <td>Sean M.</td>
                         <td>tux12345@temple.edu</td>
                         <td>
                             <div class="dropdown">
@@ -38,6 +40,7 @@
                         <td>915636014</td>
                         <td>Raehaan</td>
                         <td>Awan</td>
+                        <td>Raehaan A.</td>
                         <td>tuj43590@temple.edu</td>
                         <td>
                             <div class="dropdown">
@@ -56,6 +59,7 @@
                         <td>915987654</td>
                         <td>Aamir</td>
                         <td>Contractor</td>
+                        <td>Aamir C.</td>
                         <td>tuj02678@temple.edu</td>
                         <td>
                             <div class="dropdown">
@@ -128,7 +132,7 @@
                <div class="col-md-3">
                     <label for="validationCustom04" class="form-label">Satus:</label>
                     <select class="form-select" id="validationCustom04" required="">
-                        <option selected="" disabled="" value="">Choose...</option>
+                        <option selected="" disabled="" value="">Active</option>
                         <option>Active</option>
                         <option>Inactive</option>
                     </select>
