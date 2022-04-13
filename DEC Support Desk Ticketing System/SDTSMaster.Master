@@ -51,6 +51,7 @@
                                         <a class="dropdown-item" href="HomeScreen.aspx">Open Tickets</a>
                                         <a class="dropdown-item" href="MyTickets.aspx">My Tickets</a>
                                         <a class="dropdown-item" href="ClosedTickets.aspx">Closed Tickets</a>
+                                        <a class="dropdown-item" href="AllTickets.aspx">All Tickets</a>
                                     </div>
                                 </div>
                                 <a style= "margin-right:3%"class="btn btn-secondary" href="Email.aspx" role="button">Email</a>

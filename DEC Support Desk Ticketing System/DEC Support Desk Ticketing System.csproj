@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AddUser.aspx" />
+    <Content Include="AllTickets.aspx" />
     <Content Include="ClosedTickets.aspx" />
     <Content Include="CreateTicket.aspx" />
     <Content Include="css\bootstrap-grid.css" />
@@ -100,6 +101,13 @@
     </Compile>
     <Compile Include="AddUser.aspx.designer.cs">
       <DependentUpon>AddUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AllTickets.aspx.cs">
+      <DependentUpon>AllTickets.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AllTickets.aspx.designer.cs">
+      <DependentUpon>AllTickets.aspx</DependentUpon>
     </Compile>
     <Compile Include="ClosedTickets.aspx.cs">
       <DependentUpon>ClosedTickets.aspx</DependentUpon>
