@@ -12,35 +12,10 @@
     <div style="background-color:#C4C4C4; margin-left:1%; margin-right: 1%; margin-top:1%; margin-bottom:10%; padding: 1% 1% 1% 1%;">
         <div style="background-color:#C4C4C4; margin-left:1%; margin-right: 1%; margin-top:1%; margin-bottom:1%;">
             <form>
+                
                 <div class="form-group">
-                    <label style="float:left;" for="firstNameLastName">Client Name</label> 
-                    <input style="float:left; width:25%; margin: 0 10px 0 10px" type="email" class="form-control" id="firstNamebox" placeholder="firstName">
-                    <input style="float:left; width:25%; margin: 0 10px 0 10px" type="email" class="form-control" id="lastNamebox" placeholder="lastName">
-                    <br />
-                </div>
-                <br />
-                <div class="form-group">
-                    <label style="float:left;" for="exampleFormControlInput1">Client E-Mail*</label>
-                    <input style="width:50%; float:left; margin: 0 10px 0 10px" type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                    <br />
-                </div>
-                <br />
-                <div class="form-group">
-                    <label style="float:left;" for="exampleFormControlInput1">CC E-Mail</label>
-                    <input style="width:50%; float:left; margin: 0 10px 0 10px" type="email" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com">
-                    <br />
-                </div>
-                <br />
-                <div class="form-group">
-                    <label style="float:left;" for="exampleFormControlInput1">BCC E-Mail</label>
-                    <input style="width:50%; float:left; margin: 0 10px 0 10px" type="email" class="form-control" id="exampleFormControlInput3" placeholder="name@example.com">
-                    <br />
-                </div>
-                <br />
-                <br />
-                <div class="form-group">
-                    <label style="float:left;" for="exampleFormControlInput1">Subject*</label>
-                    <input style="width:50%; float:left; margin: 0 10px 0 10px" type="email" class="form-control" id="exampleFormControlInput4" placeholder="subject">
+                    <label style="float:left;" for="exampleFormControlInput1">TicketID</label>
+                    <input style="width:50%; float:left; margin: 0 10px 0 10px" type="email" class="form-control" id="exampleFormControlInputTicketID" placeholder="Ticket ID">
                     <br />
                 </div>
                 <br />
@@ -50,7 +25,12 @@
                     <br />
                 </div>
                 <br />
-                
+                <div class="form-group">
+                    <label style="float:left;" for="exampleFormControlInput1">Subject*</label>
+                    <input style="width:50%; float:left; margin: 0 10px 0 10px" type="email" class="form-control" id="exampleFormControlInput4" placeholder="subject">
+                    <br />
+                </div>
+                <br />
                 <div class="form-group">
                     <label for="exampleFormControlTextarea1">E-Mail Body*</label>
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
