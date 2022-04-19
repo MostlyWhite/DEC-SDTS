@@ -92,6 +92,7 @@
     <Content Include="MyTickets.aspx" />
     <Content Include="Permissions.aspx" />
     <Content Include="Status.aspx" />
+    <Content Include="Subject.aspx" />
     <Content Include="Web.config" />
     <Content Include="Email.aspx" />
   </ItemGroup>
@@ -180,6 +181,13 @@
     </Compile>
     <Compile Include="Email.aspx.designer.cs">
       <DependentUpon>Email.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Subject.aspx.cs">
+      <DependentUpon>Subject.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Subject.aspx.designer.cs">
+      <DependentUpon>Subject.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
