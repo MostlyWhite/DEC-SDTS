@@ -4,7 +4,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <script>
         $(document).ready(function () {
-            $('closedTicketTable').DataTable();
+            $('myTicketTable').DataTable();
         });
     </script>
     
