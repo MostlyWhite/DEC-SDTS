@@ -87,11 +87,13 @@
     <Content Include="js\bootstrap.min.js" />
     <Content Include="js\jquery.dataTables.min.js" />
     <Content Include="js\popper.min.js" />
+    <Content Include="Keyword.aspx" />
     <Content Include="ModifyTicket.aspx" />
     <Content Include="MyTickets.aspx" />
     <Content Include="Permissions.aspx" />
     <Content Include="ResolvedTickets.aspx" />
     <Content Include="Status.aspx" />
+    <Content Include="Subject.aspx" />
     <Content Include="Web.config" />
     <Content Include="Email.aspx" />
   </ItemGroup>
@@ -130,6 +132,13 @@
     </Compile>
     <Compile Include="HomeScreen.aspx.designer.cs">
       <DependentUpon>HomeScreen.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Keyword.aspx.cs">
+      <DependentUpon>Keyword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Keyword.aspx.designer.cs">
+      <DependentUpon>Keyword.aspx</DependentUpon>
     </Compile>
     <Compile Include="ModifyTicket.aspx.cs">
       <DependentUpon>ModifyTicket.aspx</DependentUpon>
@@ -180,6 +189,13 @@
     </Compile>
     <Compile Include="Email.aspx.designer.cs">
       <DependentUpon>Email.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Subject.aspx.cs">
+      <DependentUpon>Subject.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Subject.aspx.designer.cs">
+      <DependentUpon>Subject.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
