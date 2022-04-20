@@ -52,6 +52,7 @@
                                         <a class="dropdown-item" href="MyTickets.aspx">My Tickets</a>
                                         <a class="dropdown-item" href="ClosedTickets.aspx">Closed Tickets</a>
                                         <a class="dropdown-item" href="AllTickets.aspx">All Tickets</a>
+                                        <a class="dropdown-item" href="ResolvedTickets.aspx">Resolved Tickets</a>
                                     </div>
                                 </div>
                                 <a style= "margin-right:3%"class="btn btn-secondary" href="Email.aspx" role="button">Email</a>
