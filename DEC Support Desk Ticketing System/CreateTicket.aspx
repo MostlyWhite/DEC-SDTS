@@ -76,9 +76,10 @@
         <br />
         <asp:Label ID="lblPriority" runat="server" Text="Priority">
             <asp:DropDownList ID="ddlPriority" runat="server">
-                <asp:ListItem>Low</asp:ListItem>
-                <asp:ListItem>Medium</asp:ListItem>
-                <asp:ListItem>High</asp:ListItem>
+                <asp:ListItem>1</asp:ListItem>
+                <asp:ListItem>2</asp:ListItem>
+                <asp:ListItem>3</asp:ListItem>
+                <asp:ListItem>4</asp:ListItem>
             </asp:DropDownList>
         </asp:Label>
         <br />

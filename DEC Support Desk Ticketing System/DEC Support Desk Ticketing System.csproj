@@ -91,6 +91,7 @@
     <Content Include="ModifyTicket.aspx" />
     <Content Include="MyTickets.aspx" />
     <Content Include="Permissions.aspx" />
+    <Content Include="ResolvedTickets.aspx" />
     <Content Include="Status.aspx" />
     <Content Include="Subject.aspx" />
     <Content Include="Web.config" />
@@ -161,6 +162,13 @@
       <DependentUpon>Permissions.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ResolvedTickets.aspx.cs">
+      <DependentUpon>ResolvedTickets.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ResolvedTickets.aspx.designer.cs">
+      <DependentUpon>ResolvedTickets.aspx</DependentUpon>
+    </Compile>
     <Compile Include="SDTSMaster.Master.cs">
       <DependentUpon>SDTSMaster.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

@@ -1,19 +1,19 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/SDTSMaster.Master" AutoEventWireup="true" CodeBehind="ClosedTickets.aspx.cs" Inherits="DEC_Support_Desk_Ticketing_System.ClosedTickets" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/SDTSMaster.Master" AutoEventWireup="true" CodeBehind="ResolvedTickets.aspx.cs" Inherits="DEC_Support_Desk_Ticketing_System.ResolvedTickets" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <script>
         $(document).ready(function () {
-            $('closedTicketTable').DataTable();
+            $('resolvedTicketTable').DataTable();
         });
     </script>
     
     <div style="height:50px; width:100%; margin-top:10px;">
         <div style="height:25px; width:60%; background-color:#981E32; border-radius: 25px; margin-left: 20%; text-align:center; color:white;">
-            Tickets - Closed Tickets
+            Tickets - Resolved Tickets
         </div>
     </div>
-    <table id="closedTicketTable" class="table table-striped table-bordered" style="width:100%">
+    <table id="resolvedTicketTable" class="table table-striped table-bordered" style="width:100%">
         <thead>
             <tr>
                 <th>Edit</th>
