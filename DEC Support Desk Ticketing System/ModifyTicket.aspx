@@ -109,7 +109,7 @@
         <br />
     </asp:Panel>
     <!-- Still needs history-->
-    <asp:Panel runat="server" class="mx-auto" margin="auto" style="padding:2%" width="75%" BorderStyle="Solid" BorderColor="#999999">
+    <asp:Panel runat="server" class="mx-auto" margin="auto" style="padding:1%" width="75%" BorderStyle="Solid" BorderColor="#999999">
         <asp:Label runat="server" class="" >
             Date <br />
             Content goes here <br />
