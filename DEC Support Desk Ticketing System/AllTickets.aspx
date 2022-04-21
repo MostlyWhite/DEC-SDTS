@@ -1,19 +1,19 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/SDTSMaster.Master" AutoEventWireup="true" CodeBehind="HomeScreen.aspx.cs" Inherits="DEC_Support_Desk_Ticketing_System.HomeScreen" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/SDTSMaster.Master" AutoEventWireup="true" CodeBehind="AllTickets.aspx.cs" Inherits="DEC_Support_Desk_Ticketing_System.AllTickets" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <script>
+     <script>
         $(document).ready(function () {
-            $('#example').DataTable();
+            $('#allTicketTable').DataTable();
         });
-    </script>
+     </script>
     
     <div style="height:50px; width:100%; margin-top:10px;">
         <div style="height:25px; width:60%; background-color:#981E32; border-radius: 25px; margin-left: 20%; text-align:center; color:white;">
-            Tickets - Open Tickets
+            Tickets - All Tickets
         </div>
     </div>
-    <table id="example" class="table table-striped table-bordered" style="width:100%">
+    <table id="allTicketTable" class="table table-striped table-bordered" style="width:100%">
         <thead>
             <tr>
                 <th>Edit</th>
@@ -45,7 +45,7 @@
                 <td>Zoom</td>
                 <td>1282</td>
                 <td>John Doe</td>
-                <td>Normal</td>
+                <td>2</td>
                 <td>New</td>
                 <td>Assigned</td>
                 <td>3/20/22</td>
@@ -67,7 +67,7 @@
                 <td>Teams</td>
                 <td>1272</td>
                 <td>Jane Doe</td>
-                <td>Normal</td>
+                <td>2</td>
                 <td>In-Progress</td>
                 <td>Ongoing</td>
                 <td>3/17/22</td>
@@ -89,7 +89,7 @@
                 <td>WiFi</td>
                 <td>1054</td>
                 <td>Peter Jones</td>
-                <td>High</td>
+                <td>4</td>
                 <td>In-Progress</td>
                 <td>Ongoing</td>
                 <td>3/17/22</td>
@@ -111,7 +111,7 @@
                 <td>Hardware</td>
                 <td>1268</td>
                 <td>Jimmy John</td>
-                <td>High</td>
+                <td>4</td>
                 <td>In-Progress</td>
                 <td>Ongoing</td>
                 <td>3/16/22</td>
@@ -133,7 +133,7 @@
                 <td>Peripherals</td>
                 <td>1266</td>
                 <td>Maggie Smith</td>
-                <td>High</td>
+                <td>4</td>
                 <td>In-Progress</td>
                 <td>Ongoing</td>
                 <td>3/12/22</td>
@@ -155,7 +155,7 @@
                 <td>Peripherals</td>
                 <td>1266</td>
                 <td>Maggie Smith</td>
-                <td>High</td>
+                <td>4</td>
                 <td>In-Progress</td>
                 <td>Ongoing</td>
                 <td>3/12/22</td>
@@ -177,7 +177,7 @@
                 <td>Peripherals</td>
                 <td>1266</td>
                 <td>Maggie Smith</td>
-                <td>High</td>
+                <td>4</td>
                 <td>In-Progress</td>
                 <td>Ongoing</td>
                 <td>3/12/22</td>
@@ -199,7 +199,7 @@
                 <td>Peripherals</td>
                 <td>1266</td>
                 <td>Maggie Smith</td>
-                <td>High</td>
+                <td>4</td>
                 <td>In-Progress</td>
                 <td>Ongoing</td>
                 <td>3/12/22</td>
@@ -221,7 +221,7 @@
                 <td>Peripherals</td>
                 <td>1266</td>
                 <td>Maggie Smith</td>
-                <td>High</td>
+                <td>4</td>
                 <td>In-Progress</td>
                 <td>Ongoing</td>
                 <td>3/12/22</td>
@@ -243,7 +243,7 @@
                 <td>Peripherals</td>
                 <td>1266</td>
                 <td>Maggie Smith</td>
-                <td>High</td>
+                <td>4</td>
                 <td>In-Progress</td>
                 <td>Ongoing</td>
                 <td>3/12/22</td>
@@ -265,7 +265,7 @@
                 <td>Peripherals</td>
                 <td>1266</td>
                 <td>Maggie Smith</td>
-                <td>High</td>
+                <td>4</td>
                 <td>In-Progress</td>
                 <td>Ongoing</td>
                 <td>3/12/22</td>
@@ -287,7 +287,7 @@
                 <td>Peripherals</td>
                 <td>1266</td>
                 <td>Maggie Smith</td>
-                <td>High</td>
+                <td>4</td>
                 <td>In-Progress</td>
                 <td>Ongoing</td>
                 <td>3/12/22</td>
@@ -309,7 +309,7 @@
                 <td>Peripherals</td>
                 <td>1266</td>
                 <td>Maggie Smith</td>
-                <td>High</td>
+                <td>4</td>
                 <td>In-Progress</td>
                 <td>Ongoing</td>
                 <td>3/12/22</td>
@@ -331,7 +331,7 @@
                 <td>Peripherals</td>
                 <td>1266</td>
                 <td>Maggie Smith</td>
-                <td>High</td>
+                <td>4</td>
                 <td>In-Progress</td>
                 <td>Ongoing</td>
                 <td>3/12/22</td>
@@ -353,7 +353,7 @@
                 <td>Peripherals</td>
                 <td>1266</td>
                 <td>Maggie Smith</td>
-                <td>High</td>
+                <td>4</td>
                 <td>In-Progress</td>
                 <td>Ongoing</td>
                 <td>3/12/22</td>
@@ -375,7 +375,7 @@
                 <td>Peripherals</td>
                 <td>1266</td>
                 <td>Maggie Smith</td>
-                <td>High</td>
+                <td>4</td>
                 <td>In-Progress</td>
                 <td>Ongoing</td>
                 <td>3/12/22</td>
@@ -397,7 +397,7 @@
                 <td>Peripherals</td>
                 <td>1266</td>
                 <td>Maggie Smith</td>
-                <td>High</td>
+                <td>4</td>
                 <td>In-Progress</td>
                 <td>Ongoing</td>
                 <td>3/12/22</td>
@@ -419,7 +419,7 @@
                 <td>Peripherals</td>
                 <td>1266</td>
                 <td>Maggie Smith</td>
-                <td>High</td>
+                <td>4</td>
                 <td>In-Progress</td>
                 <td>Ongoing</td>
                 <td>3/12/22</td>
@@ -441,7 +441,7 @@
                 <td>Peripherals</td>
                 <td>1266</td>
                 <td>Maggie Smith</td>
-                <td>High</td>
+                <td>4</td>
                 <td>In-Progress</td>
                 <td>Ongoing</td>
                 <td>3/12/22</td>
@@ -463,7 +463,7 @@
                 <td>Peripherals</td>
                 <td>1266</td>
                 <td>Maggie Smith</td>
-                <td>High</td>
+                <td>4</td>
                 <td>In-Progress</td>
                 <td>Ongoing</td>
                 <td>3/12/22</td>
@@ -485,7 +485,7 @@
                 <td>Peripherals</td>
                 <td>1266</td>
                 <td>Maggie Smith</td>
-                <td>High</td>
+                <td>4</td>
                 <td>In-Progress</td>
                 <td>Ongoing</td>
                 <td>3/12/22</td>
@@ -507,7 +507,7 @@
                 <td>Peripherals</td>
                 <td>1266</td>
                 <td>Maggie Smith</td>
-                <td>High</td>
+                <td>4</td>
                 <td>In-Progress</td>
                 <td>Ongoing</td>
                 <td>3/12/22</td>
@@ -529,7 +529,7 @@
                 <td>Peripherals</td>
                 <td>1266</td>
                 <td>Maggie Smith</td>
-                <td>High</td>
+                <td>4</td>
                 <td>In-Progress</td>
                 <td>Ongoing</td>
                 <td>3/12/22</td>
@@ -551,7 +551,7 @@
                 <td>Peripherals</td>
                 <td>1266</td>
                 <td>Maggie Smith</td>
-                <td>High</td>
+                <td>4</td>
                 <td>In-Progress</td>
                 <td>Ongoing</td>
                 <td>3/12/22</td>
@@ -573,7 +573,7 @@
                 <td>Bluetooth</td>
                 <td>1240</td>
                 <td>Maggie Smith</td>
-                <td>High</td>
+                <td>4</td>
                 <td>In-Progress</td>
                 <td>Ongoing</td>
                 <td>3/07/22</td>
