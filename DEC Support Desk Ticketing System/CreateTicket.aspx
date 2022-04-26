@@ -11,50 +11,67 @@
     <asp:Panel ID="pnlCreateTicket" class="mx-auto" margin="auto" width="90%" runat="server" BackColor="#999999" BorderStyle="Solid">
                 <br />
         <br />
-        <asp:Panel runat="server" id="pnlLeft" class="w-50 d-inline-block text-right" >
-                    <asp:Label ID="lblEmail" class="col-md-10"  runat="server" Text="Email ">
-            <asp:TextBox id="txtEmail" class="col-md-10" Width="80%" runat="server"> </asp:TextBox>
+        <asp:Panel runat="server" id="pnlLeft" class="w-50 d-inline-block text-left pl-5" >
+                    <asp:Label ID="lblEmail" class="col-md-10"  runat="server" Text="Email" >
         </asp:Label>
+            <br />
+            <asp:TextBox id="txtEmail" class="col-md-10" Width="75%" runat="server"> </asp:TextBox>
             <br /> 
             <br /> 
          <asp:Label ID="lblFirstName" class="col-md-5" runat="server" Text="First Name ">
-            <asp:TextBox id="txtFirstname" Width="80%" runat="server"> </asp:TextBox>
+            
         </asp:Label>
+            <br />
+            <asp:TextBox id="txtFirstname" Width="75%" runat="server"> </asp:TextBox>
         </asp:Panel>
 
-        <asp:Panel runat="server" ID="pnlRight" class="w-50 float-right text-right">
+        <asp:Panel runat="server" ID="pnlRight" class="w-50 float-right text-left pl-5">
              <asp:Label ID="lblPhone" class="col-md-10"  runat="server" Text="Phone ">
-                <asp:TextBox id="txtPhone" Width="80%" runat="server"> </asp:TextBox>
+                
             </asp:Label>
+            <br />
+            <asp:TextBox id="txtPhone" Width="75%" runat="server"> </asp:TextBox>
                     <br />
                  <br />
             <asp:Label ID="lblLastName" class="col-md-5" runat="server" Text="Last Name ">
-                <asp:TextBox id="txtLastname" Width="80%" runat="server"> </asp:TextBox>
+                
             </asp:Label>
+            <br />
+            <asp:TextBox id="txtLastname" Width="75%" runat="server"> </asp:TextBox>
         </asp:Panel>
 
 
 
         <br />
         <br />
-        <asp:Panel ID="pnlLeftRow2" class="w-50 h-50 d-inline-block text-right" style="height:200px;" runat="server">
+        <asp:Panel ID="pnlLeftRow2" class="w-50 h-50 d-inline-block text-left pl-5" style="height:200px;" runat="server">
             <asp:Label ID="lblSubject" class="col-md-10" runat="server" Text="Subject ">
-                <asp:TextBox id="txtSubject" Width="80%" runat="server"> </asp:TextBox>   
+                
             </asp:Label>
+            <br />
+            <asp:TextBox id="txtSubject" Width="75%" runat="server"> </asp:TextBox>   
         </asp:Panel>
 
-        <asp:Panel ID="pnlRightRow2" class="w-50 h-50 float-right text-right" style="height:200px; " runat="server">
+        <asp:Panel ID="pnlRightRow2" class="w-50 h-50 float-right text-left pl-5" style="height:200px; " runat="server">
             <asp:Label ID="lblNotes" class="col-md-10" runat="server" Text="Additional Notes ">
-                <textarea id="taNotes" class="w-75" runat="server">   </textarea>
+                
             </asp:Label>
+            <br />
+            <textarea id="taNotes" class="w-75" runat="server">   </textarea>
         </asp:Panel>
 
 
 
         <br />
         <br />
-
-        <asp:Panel runat="server" ID="ddlBoxes" Width="40%" align="right" style="display: inline-block">
+        <!--Ticket ID DONE
+            Creation type 
+            Created Date-->
+        <asp:Panel runat="server" ID="ddlBoxes" Width="40%" align="left" class="pl-5" style="display: inline-block">
+            <asp:Label ID="Ticet" runat="server" Text="Ticket ID">
+                <asp:Label ID="TicketID:" runat="server" Text="1266"></asp:Label>
+            </asp:Label>
+            <br /><br />
             <asp:Label ID="lblPrimaryStatus" runat="server" Text="Primary Status">
             <asp:DropDownList ID="ddlPrimary" runat="server">
                 <asp:ListItem>New</asp:ListItem>
@@ -91,15 +108,22 @@
                 <asp:ListItem>Alex M.</asp:ListItem>
             </asp:DropDownList>
         </asp:Label>
-        </asp:Panel>
-        <asp:Panel runat="server" Width="45%" style="float:right; margin-top: -7%; padding-left: 5%; padding-right: -5%">
-        <asp:Label ID="lblAttatchments" runat="server" Text="Attachments" style="text-align:left">
-            <asp:Panel id="uploadDisplay" CssClass="" style="background-color:#fff" BackColor="#fff" margin-right="0%" height="100px" width="90%" border="solid" runat="server">
-                placehoder.img
-            </asp:Panel>
-            <asp:Button ID="btnSelect" class="btn btn-secondary" runat="server" text="Select Attachments"/>
-            <asp:Button ID="btnUpload" class="btn btn-secondary" runat="server" text="Upload"/>
+            <br /><br />
+         <asp:Label ID="CreationType" runat="server" Text="Creation Type">
+            <asp:DropDownList ID="DropDownList1" runat="server">
+                <asp:ListItem>Email</asp:ListItem>
+                <asp:ListItem>Phone</asp:ListItem>
+                <asp:ListItem>Walk In</asp:ListItem>
+            </asp:DropDownList>
         </asp:Label>
+            <br /><br />
+         <asp:Label ID="Label1" runat="server" Text="Date">
+                 <input type="datetime" runat="server" id="dateandtime" value="2022-04-26T15:30"/>
+            </asp:Label>
+        </asp:Panel>
+        <asp:Panel runat="server" Width="45%" class="text-left" style="float:right; margin-top: -7%; padding-left: 5%; padding-right: -5%">
+             <label for="exampleFormControlFile1">Example file input</label>
+                    <input type="file" class="form-control-file" id="exampleFormControlFile1"> 
          </asp:Panel>
         <br />
         <br />
