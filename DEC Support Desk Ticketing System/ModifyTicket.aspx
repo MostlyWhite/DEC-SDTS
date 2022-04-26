@@ -110,6 +110,52 @@
         <br />
     </asp:Panel>
     <!-- Still needs history-->
+
+
+<button class="accordion">Section 1</button>
+<div class="panel">
+  <asp:Panel runat="server" class="mx-auto" margin="auto" style="padding:1%" width="75%" BorderStyle="Solid" BorderColor="#999999">
+        <asp:Label runat="server" class="" >
+            <asp:Label runat="server" class="h5">4/14/2022 13:40</asp:Label> <br /><br />
+            <asp:Label runat="server" class="h3">Once the client updated their zoom the issue was resolved</asp:Label><br /><br />
+            <asp:Label runat="server" class="h5">Edited by: Sean M.</asp:Label> <br />
+        </asp:Label>
+    </asp:Panel>
+</div>
+
+<button class="accordion">Section 2</button>
+<div class="panel">
+  <asp:Panel runat="server" class="mx-auto" margin="auto" style="padding:2%" width="75%" BorderStyle="Solid" BorderColor="#999999">
+        <asp:Label runat="server" class="" >
+            <asp:Label runat="server" class="h5">4/14/2022 13:10</asp:Label> <br /> <br />
+            <asp:Label runat="server" class="h3" >Client called in with an issue regarding zoom, Their meetings were acting weird. I am now troubleshooting the issue over the phone.</asp:Label><br /> <br />
+            <asp:Label runat="server" class="h5">Edited by: Sean M.</asp:Label> <br />
+        </asp:Label>
+      </asp:Panel>
+      </div>
+
+
+
+
+
+    <script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+    </script>
+
+=======
     <asp:Panel runat="server" class="mx-auto" margin="auto" style="padding:1%" width="75%" BorderStyle="Solid" BorderColor="#999999">
         
         <div class="container">
@@ -164,5 +210,6 @@
     </asp:Panel>
 
     
+
 </asp:Content>
 
