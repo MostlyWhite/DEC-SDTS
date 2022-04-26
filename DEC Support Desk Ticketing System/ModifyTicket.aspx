@@ -76,9 +76,10 @@
         <br />
         <asp:Label ID="lblPriority" runat="server" Text="Priority">
             <asp:DropDownList ID="ddlPriority" runat="server">
-                <asp:ListItem>Low</asp:ListItem>
-                <asp:ListItem>Medium</asp:ListItem>
-                <asp:ListItem>High</asp:ListItem>
+                <asp:ListItem>1</asp:ListItem>
+                <asp:ListItem>2</asp:ListItem>
+                <asp:ListItem>3</asp:ListItem>
+                <asp:ListItem>4</asp:ListItem>
             </asp:DropDownList>
         </asp:Label>
         <br />
@@ -109,7 +110,7 @@
         <br />
     </asp:Panel>
     <!-- Still needs history-->
-    <asp:Panel runat="server" class="mx-auto" margin="auto" style="padding:2%" width="75%" BorderStyle="Solid" BorderColor="#999999">
+    <asp:Panel runat="server" class="mx-auto" margin="auto" style="padding:1%" width="75%" BorderStyle="Solid" BorderColor="#999999">
         <asp:Label runat="server" class="" >
             <asp:Label runat="server" class="h5">4/14/2022 13:40</asp:Label> <br /><br />
             <asp:Label runat="server" class="h3">Once the client updated their zoom the issue was resolved</asp:Label><br /><br />

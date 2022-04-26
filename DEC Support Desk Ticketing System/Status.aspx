@@ -5,21 +5,11 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
   
   <form>
+      <!--Primary Status Textbox -->
   <div class="form-group" style ="float:left; margin: 10px">
-    <!--Primary Status Dropdown -->
-    <div class="dropdown">
-        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Primary Status
-        </button>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="#">Assigned</a>
-                <a class="dropdown-item" href="#">In-Progress</a>
-                <a class="dropdown-item" href="#">Pending</a>
-                <a class="dropdown-item" href="#">Resolved</a>
-                <a class="dropdown-item" href="#">Closed</a>    
-            </div>
-    </div>
-  </div>
+    <label for="exampleInputPassword1">Primary Status</label>
+    <input type="text" class="form-control" id="primaryStatus" placeholder="...">
+  </div>  
     <!--Secondary Status Textbox -->
   <div class="form-group" style ="float:left; margin: 10px">
     <label for="exampleInputPassword1">Secondary Status</label>
@@ -256,13 +246,6 @@
                 </td>
             </tr>
         </tbody>
-        <tfoot>
-            <tr>
-                <th>Primary Status</th>
-                <th>Secondary Status</th>
-                <th>Active</th>
-            </tr>
-        </tfoot>
     </table>
 
     

@@ -18,6 +18,7 @@
             <tr>
                 <th>Edit</th>
                 <th>Subject</th>
+                <th>Keyword</th>
                 <th>Ticket Number</th>
                 <th>Client</th>
                 <th>Priority</th>
@@ -41,6 +42,7 @@
                     </p>
                 </td>
                 <td>Zoom not working</td>
+                <td>Zoom</td>
                 <td>1282</td>
                 <td>John Doe</td>
                 <td>Normal</td>
@@ -62,6 +64,7 @@
                     </p>
                 </td>
                 <td>Teams keeps crashing</td>
+                <td>Teams</td>
                 <td>1272</td>
                 <td>Jane Doe</td>
                 <td>Normal</td>
@@ -83,6 +86,7 @@
                     </p>
                 </td>
                 <td>Wifi not working</td>
+                <td>WiFi</td>
                 <td>1054</td>
                 <td>Peter Jones</td>
                 <td>High</td>
@@ -104,6 +108,7 @@
                     </p>
                 </td>
                 <td>Screen is blank</td>
+                <td>Hardware</td>
                 <td>1268</td>
                 <td>Jimmy John</td>
                 <td>High</td>
@@ -125,6 +130,7 @@
                     </p>
                 </td>
                 <td>Headphone not working</td>
+                <td>Peripherals</td>
                 <td>1266</td>
                 <td>Maggie Smith</td>
                 <td>High</td>
@@ -146,6 +152,7 @@
                     </p>
                 </td>
                 <td>Headphone not working</td>
+                <td>Peripherals</td>
                 <td>1266</td>
                 <td>Maggie Smith</td>
                 <td>High</td>
@@ -167,6 +174,7 @@
                     </p>
                 </td>
                 <td>Headphone not working</td>
+                <td>Peripherals</td>
                 <td>1266</td>
                 <td>Maggie Smith</td>
                 <td>High</td>
@@ -188,6 +196,7 @@
                     </p>
                 </td>
                 <td>Headphone not working</td>
+                <td>Peripherals</td>
                 <td>1266</td>
                 <td>Maggie Smith</td>
                 <td>High</td>
@@ -209,6 +218,7 @@
                     </p>
                 </td>
                 <td>Headphone not working</td>
+                <td>Peripherals</td>
                 <td>1266</td>
                 <td>Maggie Smith</td>
                 <td>High</td>
@@ -230,6 +240,7 @@
                     </p>
                 </td>
                 <td>Headphone not working</td>
+                <td>Peripherals</td>
                 <td>1266</td>
                 <td>Maggie Smith</td>
                 <td>High</td>
@@ -251,6 +262,7 @@
                     </p>
                 </td>
                 <td>Headphone not working</td>
+                <td>Peripherals</td>
                 <td>1266</td>
                 <td>Maggie Smith</td>
                 <td>High</td>
@@ -272,6 +284,7 @@
                     </p>
                 </td>
                 <td>Headphone not working</td>
+                <td>Peripherals</td>
                 <td>1266</td>
                 <td>Maggie Smith</td>
                 <td>High</td>
@@ -293,6 +306,7 @@
                     </p>
                 </td>
                 <td>Headphone not working</td>
+                <td>Peripherals</td>
                 <td>1266</td>
                 <td>Maggie Smith</td>
                 <td>High</td>
@@ -314,6 +328,7 @@
                     </p>
                 </td>
                 <td>Headphone not working</td>
+                <td>Peripherals</td>
                 <td>1266</td>
                 <td>Maggie Smith</td>
                 <td>High</td>
@@ -335,6 +350,7 @@
                     </p>
                 </td>
                 <td>Headphone not working</td>
+                <td>Peripherals</td>
                 <td>1266</td>
                 <td>Maggie Smith</td>
                 <td>High</td>
@@ -356,6 +372,7 @@
                     </p>
                 </td>
                 <td>Headphone not working</td>
+                <td>Peripherals</td>
                 <td>1266</td>
                 <td>Maggie Smith</td>
                 <td>High</td>
@@ -377,6 +394,7 @@
                     </p>
                 </td>
                 <td>Headphone not working</td>
+                <td>Peripherals</td>
                 <td>1266</td>
                 <td>Maggie Smith</td>
                 <td>High</td>
@@ -398,6 +416,7 @@
                     </p>
                 </td>
                 <td>Headphone not working</td>
+                <td>Peripherals</td>
                 <td>1266</td>
                 <td>Maggie Smith</td>
                 <td>High</td>
@@ -419,6 +438,7 @@
                     </p>
                 </td>
                 <td>Headphone not working</td>
+                <td>Peripherals</td>
                 <td>1266</td>
                 <td>Maggie Smith</td>
                 <td>High</td>
@@ -440,6 +460,7 @@
                     </p>
                 </td>
                 <td>Headphone not working</td>
+                <td>Peripherals</td>
                 <td>1266</td>
                 <td>Maggie Smith</td>
                 <td>High</td>
@@ -461,6 +482,7 @@
                     </p>
                 </td>
                 <td>Headphone not working</td>
+                <td>Peripherals</td>
                 <td>1266</td>
                 <td>Maggie Smith</td>
                 <td>High</td>
@@ -482,6 +504,7 @@
                     </p>
                 </td>
                 <td>Headphone not working</td>
+                <td>Peripherals</td>
                 <td>1266</td>
                 <td>Maggie Smith</td>
                 <td>High</td>
@@ -503,6 +526,7 @@
                     </p>
                 </td>
                 <td>Headphone not working</td>
+                <td>Peripherals</td>
                 <td>1266</td>
                 <td>Maggie Smith</td>
                 <td>High</td>
@@ -524,6 +548,7 @@
                     </p>
                 </td>
                 <td>Headphone not working</td>
+                <td>Peripherals</td>
                 <td>1266</td>
                 <td>Maggie Smith</td>
                 <td>High</td>
@@ -545,6 +570,7 @@
                     </p>
                 </td>
                 <td>Bluetooth not working</td>
+                <td>Bluetooth</td>
                 <td>1240</td>
                 <td>Maggie Smith</td>
                 <td>High</td>
@@ -559,6 +585,7 @@
             <tr>
                 <th>Edit</th>
                 <th>Subject</th>
+                <th>Keyword</th>
                 <th>Ticket Number</th>
                 <th>Client</th>
                 <th>Priority</th>
