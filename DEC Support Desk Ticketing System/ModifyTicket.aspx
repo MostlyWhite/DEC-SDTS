@@ -111,6 +111,7 @@
     </asp:Panel>
     <!-- Still needs history-->
 
+
 <button class="accordion">Section 1</button>
 <div class="panel">
   <asp:Panel runat="server" class="mx-auto" margin="auto" style="padding:1%" width="75%" BorderStyle="Solid" BorderColor="#999999">
@@ -153,6 +154,62 @@ for (i = 0; i < acc.length; i++) {
   });
 }
     </script>
+
+=======
+    <asp:Panel runat="server" class="mx-auto" margin="auto" style="padding:1%" width="75%" BorderStyle="Solid" BorderColor="#999999">
+        
+        <div class="container">
+            <div class="panel-group" id="accordion">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Ticket Updated On: 4/26/2022</a>
+                        </h4>
+                    </div>
+                    <div id="collapse1" class="panel-collapse collapse in">
+                         <div class="panel-body">
+                              4/26/2022 <br />
+                              Ticket was changed to be assigned to Sean M. <br />
+                              Edited by Sean M. <br />
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Ticket Updated On: 4/25/2022</a>
+                            </h4>
+                        </div>
+                    <div id="collapse2" class="panel-collapse collapse">
+                        <div class="panel-body">
+                                 4/25/2022 <br />
+                                 Ticket priority was updated. <br />
+                                 Edited by Sean M. <br />
+
+                        </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Ticket Updated On: 4/24/2022</a>
+                            </h4>
+                        </div>
+                    <div id="collapse3" class="panel-collapse collapse">
+                         <div class="panel-body">
+                              4/24/2022 <br />
+                              Ticket was created and assigned to Raehaan A. <br />
+                              Edited by Raehaan A. <br />
+
+                         </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </asp:Panel>
+
+    
 
 </asp:Content>
 
