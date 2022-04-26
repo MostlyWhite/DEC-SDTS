@@ -245,4 +245,9 @@
             </tr>
         </tfoot>
     </table>
+    <div>
+        <asp:Panel runat="server" class="mx-auto" style="text-align:center" ID="pnlButton">
+            <asp:Button ID="btnDownload" class="btn btn-danger " runat="server" text="Download tickets"/>
+        </asp:Panel>
+    </div>
 </asp:Content>
