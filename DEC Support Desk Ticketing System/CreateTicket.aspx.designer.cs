@@ -186,13 +186,13 @@ namespace DEC_Support_Desk_Ticketing_System
         protected global::System.Web.UI.WebControls.Label Ticet;
 
         /// <summary>
-        /// TicketID: control.
+        /// TicketID control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label TicketID:;
+        protected global::System.Web.UI.WebControls.Label TicketID;
 
         /// <summary>
         /// lblPrimaryStatus control.

@@ -68,8 +68,8 @@
             Creation type 
             Created Date-->
         <asp:Panel runat="server" ID="ddlBoxes" Width="40%" align="left" class="pl-5" style="display: inline-block">
-            <asp:Label ID="Ticet" runat="server" Text="Ticket ID">
-                <asp:Label ID="TicketID:" runat="server" Text="1266"></asp:Label>
+            <asp:Label ID="Ticet" runat="server" Text="Ticket ID:">
+                <asp:Label ID="TicketID" runat="server" Text="1266"></asp:Label>
             </asp:Label>
             <br /><br />
             <asp:Label ID="lblPrimaryStatus" runat="server" Text="Primary Status">

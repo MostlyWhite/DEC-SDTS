@@ -177,6 +177,24 @@ namespace DEC_Support_Desk_Ticketing_System
         protected global::System.Web.UI.WebControls.Panel ddlBoxes;
 
         /// <summary>
+        /// Ticet control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Ticet;
+
+        /// <summary>
+        /// Label1 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Label1;
+
+        /// <summary>
         /// lblPrimaryStatus control.
         /// </summary>
         /// <remarks>
@@ -249,40 +267,40 @@ namespace DEC_Support_Desk_Ticketing_System
         protected global::System.Web.UI.WebControls.DropDownList ddlAssigned;
 
         /// <summary>
-        /// lblAttatchments control.
+        /// CreationType control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lblAttatchments;
+        protected global::System.Web.UI.WebControls.Label CreationType;
 
         /// <summary>
-        /// uploadDisplay control.
+        /// DropDownList1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Panel uploadDisplay;
+        protected global::System.Web.UI.WebControls.DropDownList DropDownList1;
 
         /// <summary>
-        /// btnSelect control.
+        /// Label2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnSelect;
+        protected global::System.Web.UI.WebControls.Label Label2;
 
         /// <summary>
-        /// btnUpload control.
+        /// dateandtime control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnUpload;
+        protected global::System.Web.UI.HtmlControls.HtmlInputGenericControl dateandtime;
 
         /// <summary>
         /// pnlButton control.
