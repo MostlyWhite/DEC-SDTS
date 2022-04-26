@@ -7,7 +7,7 @@
             <table id="example" class="table table-striped table-bordered" style="width:100%">
                 <thead>
                     <tr>
-                        <th>TUID</th>
+                        <th>UserID</th>
                         <th>First Name</th>
                         <th>Last Name</th>
                         <th>Screen Name</th>
@@ -97,7 +97,7 @@
                 <div class="modal-body row g-3">
 <!-- Insert stuff here Kyle --> 
                     <div class="col-md-10">
-                        <label for="validationTUID" class="form-label">TUID:</label>
+                        <label for="validationTUID" class="form-label">UserID:</label>
                         <div class="input-group has-validation">
                             
                             <input type="text" class="form-control" id="validationTUID" aria-describedby="inputGroupPrepend" required="">
@@ -109,17 +109,13 @@
                     </div>
                 <div class="col-md-5">
                     <label for="validationCustom01" class="form-label">First Name:</label>
-                    <input type="text" class="form-control" id="validationCustom01" value="Mark" required="">
-                    <div class="valid-feedback">
-                        Looks good!
-                    </div>
+                    <br />
+                    John
                 </div>
                 <div class="col-md-5">
                     <label for="validationCustom02" class="form-label">Last Name:</label>
-                    <input type="text" class="form-control" id="validationCustom02" value="Otto" required="">
-                    <div class="valid-feedback">
-                        Looks good!
-                    </div>
+                    <br />
+                    Doe
                 </div>
                 
                 <div class="col-md-10">
@@ -131,14 +127,8 @@
                </div>
                <div class="col-md-3">
                     <label for="validationCustom04" class="form-label">Satus:</label>
-                    <select class="form-select" id="validationCustom04" required="">
-                        <option selected="" disabled="" value="">Active</option>
-                        <option>Active</option>
-                        <option>Inactive</option>
-                    </select>
-                    <div class="invalid-feedback">
-                        Please select a valid state.
-                    </div>
+                   <br />
+                    Active
               </div>
               <div class="col-md-3">
                     <label for="validationRoles" class="form-label">Role:</label>
