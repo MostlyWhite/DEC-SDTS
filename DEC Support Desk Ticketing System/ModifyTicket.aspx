@@ -111,11 +111,17 @@
     <!-- Still needs history-->
     <asp:Panel runat="server" class="mx-auto" margin="auto" style="padding:2%" width="75%" BorderStyle="Solid" BorderColor="#999999">
         <asp:Label runat="server" class="" >
-            Date <br />
-            Content goes here <br />
-            Edited by <br />
+            <asp:Label runat="server" class="h5">4/14/2022 13:40</asp:Label> <br /><br />
+            <asp:Label runat="server" class="h3">Once the client updated their zoom the issue was resolved</asp:Label><br /><br />
+            <asp:Label runat="server" class="h5">Edited by: Sean M.</asp:Label> <br />
         </asp:Label>
-     
+    </asp:Panel>
+        <asp:Panel runat="server" class="mx-auto" margin="auto" style="padding:2%" width="75%" BorderStyle="Solid" BorderColor="#999999">
+        <asp:Label runat="server" class="" >
+            <asp:Label runat="server" class="h5">4/14/2022 13:10</asp:Label> <br /> <br />
+            <asp:Label runat="server" class="h3" >Client called in with an issue regarding zoom, Their meetings were acting weird. I am now troubleshooting the issue over the phone.</asp:Label><br /> <br />
+            <asp:Label runat="server" class="h5">Edited by: Sean M.</asp:Label> <br />
+        </asp:Label>
     </asp:Panel>
 </asp:Content>
 
