@@ -110,19 +110,106 @@
         <br />
     </asp:Panel>
     <!-- Still needs history-->
-    <asp:Panel runat="server" class="mx-auto" margin="auto" style="padding:1%" width="75%" BorderStyle="Solid" BorderColor="#999999">
+
+<!--
+<button class="accordion">Section 1</button>
+<div class="panel">
+  <asp:Panel runat="server" class="mx-auto" margin="auto" style="padding:1%" width="75%" BorderStyle="Solid" BorderColor="#999999">
         <asp:Label runat="server" class="" >
             <asp:Label runat="server" class="h5">4/14/2022 13:40</asp:Label> <br /><br />
             <asp:Label runat="server" class="h3">Once the client updated their zoom the issue was resolved</asp:Label><br /><br />
             <asp:Label runat="server" class="h5">Edited by: Sean M.</asp:Label> <br />
         </asp:Label>
     </asp:Panel>
-        <asp:Panel runat="server" class="mx-auto" margin="auto" style="padding:2%" width="75%" BorderStyle="Solid" BorderColor="#999999">
+</div>
+
+<button class="accordion">Section 2</button>
+<div class="panel">
+  <asp:Panel runat="server" class="mx-auto" margin="auto" style="padding:2%" width="75%" BorderStyle="Solid" BorderColor="#999999">
         <asp:Label runat="server" class="" >
             <asp:Label runat="server" class="h5">4/14/2022 13:10</asp:Label> <br /> <br />
             <asp:Label runat="server" class="h3" >Client called in with an issue regarding zoom, Their meetings were acting weird. I am now troubleshooting the issue over the phone.</asp:Label><br /> <br />
             <asp:Label runat="server" class="h5">Edited by: Sean M.</asp:Label> <br />
         </asp:Label>
+      </asp:Panel>
+      </div>
+
+
+
+
+
+    <script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+    </script>
+
+    -->
+    <asp:Panel runat="server" class="mx-auto" margin="auto" style="padding:1%" width="75%" BorderStyle="Solid" BorderColor="#999999">
+        
+        <div class="container">
+            <div class="panel-group" id="accordion">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Ticket Updated On: 4/26/2022</a>
+                        </h4>
+                    </div>
+                    <div id="collapse1" class="panel-collapse collapse in">
+                         <div class="panel-body">
+                              4/26/2022 <br />
+                              Ticket was changed to be assigned to Sean M. <br />
+                              Edited by Sean M. <br />
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Ticket Updated On: 4/25/2022</a>
+                            </h4>
+                        </div>
+                    <div id="collapse2" class="panel-collapse collapse">
+                        <div class="panel-body">
+                                 4/25/2022 <br />
+                                 Ticket priority was updated. <br />
+                                 Edited by Sean M. <br />
+
+                        </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Ticket Updated On: 4/24/2022</a>
+                            </h4>
+                        </div>
+                    <div id="collapse3" class="panel-collapse collapse">
+                         <div class="panel-body">
+                              4/24/2022 <br />
+                              Ticket was created and assigned to Raehaan A. <br />
+                              Edited by Raehaan A. <br />
+
+                         </div>
+                    </div>
+                </div>
+            </div> 
+        </div>
     </asp:Panel>
+
+    
+
 </asp:Content>
 
