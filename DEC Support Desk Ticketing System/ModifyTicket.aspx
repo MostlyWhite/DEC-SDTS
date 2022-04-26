@@ -111,7 +111,7 @@
     </asp:Panel>
     <!-- Still needs history-->
 
-
+<!--
 <button class="accordion">Section 1</button>
 <div class="panel">
   <asp:Panel runat="server" class="mx-auto" margin="auto" style="padding:1%" width="75%" BorderStyle="Solid" BorderColor="#999999">
@@ -155,7 +155,7 @@ for (i = 0; i < acc.length; i++) {
 }
     </script>
 
-=======
+    -->
     <asp:Panel runat="server" class="mx-auto" margin="auto" style="padding:1%" width="75%" BorderStyle="Solid" BorderColor="#999999">
         
         <div class="container">
